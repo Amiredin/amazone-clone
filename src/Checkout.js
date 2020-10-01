@@ -15,6 +15,7 @@ function Checkout() {
           src="https://m.media-amazon.com/images/G/01/DeveloperBlogs/AmazonDeveloperBlogs/legacy/am2._CB520201113_.png"
           alt=""
         />
+
         {basket?.length === 0 ? (
           <div>
             <h2> Your Shoppping Basket is Empty!!! </h2>

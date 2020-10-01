@@ -4,7 +4,7 @@
 .product {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   margin: 10px;
   padding: 20px;
@@ -15,12 +15,13 @@
   z-index: 1;
 }
 .product__info {
-  height: 100px;
+  height: 100%;
   margin-bottom: 15px;
 }
 .product img {
   max-height: 200px;
   width: 100%;
+
   object-fit: contain;
   margin-bottom: 15px;
 }
